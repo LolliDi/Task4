@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html>
+    <head lang="ru">
+        <meta charset="UTF-8">
+        <title>Desk-1</title>
+        <link rel="stylesheet" href="style.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Open+Sans&family=Spectral+SC:wght@700&display=swap" rel="stylesheet">
+    </head>
+    <body id="BodyMain">
+        <div class="MainBlock" id="MainBlockDesk1">
+            <img class="logo" src="img/unknown.png" alt="">
+            <nav>
+                <a  class="NavigLink" href="#AllArticleBlock">Статьи</a>
+                <a class="NavigLink" href="#AboutMeBlock" >Обо мне</a>
+                <a class="NavigLink" href="#PFBL1">Портфолио</a>
+                <a class="NavigLink" href="#WriteMeBlock">Написать мне</a>
+            </nav>
+        </div>
+        <div id="AllArticleBlock">
+            
+            <h1>Все статьи</h1>
+            <select id="SelectTopic">
+                <option selected>Выбрать тему</option>
+            </select>
+            <div class="SmallArticle">
+                <img src="img/art1.png" alt="">
+                <h3>Путешествие в Берлин в августе</h3>
+                <p>Лучший месяц я провела в столице Германии вместе с друзьями. И вот как это было!</p>
+                <div>
+                    <p class="BottomArticle">Теги: путешествия</p>
+                    <p class="BottomArticle2">29.09.2020</p>
+                </div>
+            </div>
+            <div class="SmallArticle">
+                <img src="img/art2.png" alt="">
+                <h3>Где выпить колдбрю в Москве</h3>
+                <p>Собрала для вас список любимых кофеен,где подают лучший летний напиток.</p>
+                <div>
+                    <p class="BottomArticle">Теги: город</p>
+                    <p class="BottomArticle2">24.07.2020</p>
+                </div>
+            </div>
+            <div class="SmallArticle" onclick="location.href='desk2.html'">
+                <img src="img/motivaion.png" alt="">
+                <h3>Как себя мотивировать</h3>
+                <p>Расскажу о биопсихологической теории личности Джеффри Грея, которая помогла...</p>
+                <div>
+                    <p class="BottomArticle">Теги: путешествия, друзья</p>
+                    <p class="BottomArticle2">29.09.2020</p>
+                </div>
+            </div>
+            <div class="BigArticle" id="BigArticleId1">
+                <h3>Снимки на плёнку</h3>
+                <p>Поделилась с вами весенними фотографиями, 
+                    и секретами удачных снимков.</p>
+                <div>
+                    <p class="BottomArticle3">Теги: фотографии</p>
+                    <p class="BottomArticle4">29.06.2020</p>
+                </div>
+            </div>
+            <div class="BigArticle" id="BigArticleId2">
+                <h3>Домашний чизкейк </h3>
+                <p>Что может быть лучше чизкейка с сезонными
+                    ягодами? Только домашний чизкейк!</p>
+                <div>
+                    <p class="BottomArticle3">Теги: рецепты</p>
+                    <p class="BottomArticle4">24.06.2020</p>
+                </div>
+            </div>
+            <input type="button" value="Показать ещё" class="ClButton">
+        </div>
+        <div id="AboutMeBlock">
+            <h1>Обо мне</h1>
+            <div id="AboutMeInfoBlock">
+                <img id="ImgMe" src="img/AboutMe.png" alt="">
+                <div>
+                    <p>Всем привет! Меня зовут Аня, и это мой личный блог.
+                        Здесь ты найдёшь рассказы о моих путешествиях, снимки
+                        на плёнку, рецепты, обзоры на книги. В общем, тексты о том,
+                        что мне инетресно
+                    </p>
+                    <p>
+                        Я работаю копирайтером, поэтому мой блоге — это ещё и моё
+                        портфолио. Ниже размещены несколько моих лучших
+                        рабочих текстов. Буду рада новым сотрудничествам!
+                    </p>
+                    <p>  
+                        Если вы хотите написать мне — это можно сделать в соцсетях
+                        или через форму. Всегда приятно услышать обратную связь
+                        от читателей и познакомиться поближе.
+                    </p>
+                    <p>
+                        Приятного чтения!
+                    </p>
+                    <div id="QuoteMeBlock">
+                        <div id="QuoteLine">
+
+                        </div>
+                        <p id="QuoteMe">
+                            <i>
+                                Я верю, что каждый раз пробуя новое, выходящее за зону моего комфорта, я действительно узнаю настояющую себя.
+                            </i>
+                        </p>
+
+                    </div>
+                </div>
+                   
+            </div>
+        </div>
+        <div id="PFBL1">
+            <h1>Портфолио</h1>
+            <div id="PortfolioBlock">
+                <div class="TabPortfolio" id="TabPortfolioImg1">
+                    <h3>
+                        Блог HTML Academy
+                    </h3>
+                    <h4>
+                        «Как учиться продуктивно»
+                    </h4>
+                    <p>
+                        Про основные методы обучения, которые помогут быстро и надолго запомнить информацию.
+                    </p>
+                </div>
+                <div class="TabPortfolio" id="TabPortfolioImg2">
+                    <h3>
+                        Журнал «LNK»
+                    </h3>
+                    <h4>
+                        «Зачем поцели нужны человеку? И какие они бывают»
+                    </h4>
+                    <p>
+                        Поцелуи — повсеместная ежедневная практика. Но зачем люди целуются? Какие смысли вкладывают в этот ритуал? И где корни этой практики?
+                    </p>
+                </div>
+                <div class="TabPortfolio" id="TabPortfolioImg3">
+                    <h3>
+                        Журнал «Т — Л»
+                    </h3>
+                    <h4>
+                        «Советы по эффективной удалённой работе»
+                    </h4>
+                    <p>
+                        Поделилась лайфхаками, которые помогают мне работать продуктивно из дома. 
+                    </p>
+                </div>
+            </div>
+            <input type="button" value="Показать ещё" class="ClButton">
+        </div>
+        <div id="WriteMeBlock">
+            <h1>Написать мне</h1>
+            <div id="WriteMe">
+                <div class="InputMessageBlock">
+                    <h3>Ваше имя</h3>
+                    <input class="InputText" id="InputTextName" type="text" placeholder="Иван Иванов">
+                </div>
+                <div class="InputMessageBlock">
+                    <h3>Email</h3>
+                    <input class="InputText" id="InputTextMail" type="text" placeholder="google@gmail.com">
+                </div>
+                <div class="InputMessageBlock">
+                    <h3>Сообщение</h3>
+                    <textarea class="InputText" id="InputTextMessage" name="" id="" cols="30" rows="10" placeholder="Напишите здесь ваше сообщение"></textarea>
+                </div>
+                <input type="button" value="ОТПРАВИТЬ" class="ClButton">
+            </div>
+        </div>
+        <div id="BottomBlock">
+            <nav>
+                <a  class="NavigLink" href="">ВК</a>
+                <a class="NavigLink" href="" >Телеграм</a>
+                <a class="NavigLink" href="">Инстаграм</a>
+                <a class="NavigLink" href="">Твиттер</a>
+            </nav>
+        </div>
+    </body>
+</html>

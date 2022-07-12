@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html>
+    <head lang="ru">
+        <meta charset="UTF-8">
+        <TITle>Desk-2</TITle>
+        <link rel="stylesheet" href="style.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Open+Sans&family=Spectral+SC:wght@700&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="font-awesome-4.7.0/css/font-awesome.min.css">
+    </head>
+    <body id="BodyTwo">
+        <div class="MainBlock" id="MainBlockDesk2">
+            <img class="logo" src="img/unknown.png" alt="">
+            <nav>
+                <a  class="NavigLink" href="index.html#AllArticleBlock">Статьи</a>
+                <a class="NavigLink" href="index.html#AboutMeBlock" >Обо мне</a>
+                <a class="NavigLink" href="index.html#PFBL1">Портфолио</a>
+                <a class="NavigLink" href="index.html#WriteMeBlock">Написать мне</a>
+            </nav>
+        </div>
+        <div id="BodyArticle">
+            <h1>Как себя мотивировать</h1>
+            <p class="BottomArticle">Теги: путешествия, друзья&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;29.09.2020</p>
+            <p>Расскажу о биопсихологической теории личности Джеффри Грея, которая помогла мне разобраться в работе мотивационных стимулов. Узнала я о ней из книги «Воля и самоконтроль. Как гены и мозг мешают нам бороться с соблазнами» Ирины Якутенко.</p>
+            <p>Согласно этой теории, человеческое поведение контролируют две системы: BAS (Behavior Activation System) и BIS (Behavior Inhibition System), каждая из них обусловлена генетически. Грей использовал её для понимания того, как вознаграждение или наказание связаны с беспокойством и импульсивностью. Самое интересное, что активность этих систем у людей различна. Зная, какая из них доминирует, можно понять, какие стимулы использовать для эффективной мотивации.</p>
+            <img id="MotivationImg" src="img/motivaion.png" alt="">
+            <p id="MotivationImgName">Моё поведение регулируется больше BAS, поэтому при планировании целей я всегда использую позитивный стимул.</p>
+            <p>BAS (Behavior Activation System) работает на ощущение позитивных эмоций. Мотивация людей, чье поведение в основном определяется этой системой, направлена на получение вознаграждения. Они стремятся получить одобрение и награду
+                за свои действия. Такие люди более мотивированы в учебе и развитии разных навыков. Однако носители активной BAS склонны к импульсивности и желанию немедленного вознаграждения, что может мешать долгосрочной работе.
+                BIS (Behavior Inhibition System) ответственна за избегающее поведение. Люди с этой активной системой мотивируются стремлением избежать проблем. Они более чувствительны к наказанию и новому опыту, а также стремятся избежать ситуаций, когда чувствуют, что могут потерпеть неудачу.
+            </p>
+            <p>
+                Определив, к какому типу относится поведение, вы узнаете, какие стимулы использовать для достижения поставленной цели. Например, я решила выучить английский — само изучение не является целью, поэтому нужно правильно
+                её сформулировать. Если моё поведение регулируется BAS, мне нужно выбрать своей конечной целью какую-то награду: например, если я выучу английский, то смогу смотреть фильмы в оригинале. Если же я склонна к BIS поведению, целью нужно выбрать избежание проблем: если я заговорю на английском, то не потеряюсь в новой стране. И это можно использовать в различных сферах жизни.
+            </p>
+            <div id="SocBlock">
+                <i class="fa fa-thumbs-o-up" id="Like" aria-hidden="true"></i>
+                <p>16</p>
+                <div>
+                    <i class="fa fa-twitter" id="Twitter" aria-hidden="true"></i>
+                    <i class="fa fa-facebook-official" aria-hidden="true"></i>
+                    <i class="fa fa-vk" aria-hidden="true"></i>
+                </div>
+            </div>
+            <nav>
+                <a href="index.html">
+                    <h1>Ко всем статьям
+                       <i class="fa fa-long-arrow-right" aria-hidden="true"></i> 
+                    </h1>     
+                </a>
+            </nav>
+        </div>
+        <div id="CommentBlock">
+            <div id="Comments">
+                <div>
+                    <img src="img/pers1.png" alt="">
+                    <h5>Иван Петров</h5>
+                </div>
+                <p class="ComText">Отличная статья! Спасибо.</p>
+                <div>
+                    <img src="img/pers2.png" alt="">
+                    <h5>Ксения Ксения</h5>
+                </div>
+                <p class="ComText">Отличный текст, добавила в закладки.</p>
+                <div>
+                    <img src="img/pers3.png" alt="">
+                    <h5>Иван Иванов</h5>
+                </div>
+                <p class="ComText">Основательный материал! Можешь посоветовать какие-то книги на эту тему?</p>
+            </div>
+            <div id="NewComment">
+                <div id="WriteMe2">
+                    <h2>
+                        Оставить комментарий
+                    </h2>
+                    <input class="InputTextComm" id="InputTextNameComm" type="text" placeholder="Имя">
+                    <input class="InputTextComm" id="InputTextMailComm" type="text" placeholder="Почта">
+                    <input type="button" value="ОТПРАВИТЬ" class="ClButton">
+                </div>
+                <textarea class="InputText" id="InputComm" name="" id="" cols="30" rows="10" placeholder="Написать комментарий..."></textarea>
+            </div>
+
+        </div>
+        <div id="BottomBlock">
+            <nav>
+                <a  class="NavigLink" href="">ВК</a>
+                <a class="NavigLink" href="" >Телеграм</a>
+                <a class="NavigLink" href="">Инстаграм</a>
+                <a class="NavigLink" href="">Твиттер</a>
+            </nav>
+        </div>
+
+    </body>
+</html>
